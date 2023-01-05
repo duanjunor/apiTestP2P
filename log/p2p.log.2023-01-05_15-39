@@ -1,0 +1,43 @@
+2023-01-05 15:33:09,462 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:33:09,463 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:33:09,746 INFO [root] [Trusttest.py(test02_success_recharge_verify_code:35)] - <random.Random object at 0x0000024868F38B50>
+2023-01-05 15:33:38,994 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:33:38,994 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:33:39,293 INFO [root] [Trusttest.py(test02_success_recharge_verify_code:35)] - 0.5697755575881535
+2023-01-05 15:33:47,508 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:33:47,508 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:33:47,778 INFO [root] [Trusttest.py(test02_success_recharge_verify_code:35)] - 0.4257865662639789
+2023-01-05 15:35:03,908 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:35:03,908 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:35:04,238 INFO [root] [Trusttest.py(test01_success_trust:25)] - login:<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://121.43.169.97:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='UserRegister'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/register/return/23010515350400312260'/><input name='UsrId' type='hidden' value=''/><input name='UsrName' type='hidden' value=''/><input name='IdType' type='hidden' value='00'/><input name='IdNo' type='hidden' value='340823198807136113'/><input name='UsrMp' type='hidden' value='13033547611'/><input name='UsrEmail' type='hidden' value=''/><input name='MerPriv' type='hidden' value='23010515350400312260'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>
+2023-01-05 15:35:04,238 INFO [root] [Trusttest.py(test01_success_trust:27)] - data：<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://121.43.169.97:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='UserRegister'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/register/return/23010515350400312260'/><input name='UsrId' type='hidden' value=''/><input name='UsrName' type='hidden' value=''/><input name='IdType' type='hidden' value='00'/><input name='IdNo' type='hidden' value='340823198807136113'/><input name='UsrMp' type='hidden' value='13033547611'/><input name='UsrEmail' type='hidden' value=''/><input name='MerPriv' type='hidden' value='23010515350400312260'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>
+2023-01-05 15:35:04,238 INFO [root] [utils.py(request_third_api:18)] - http://121.43.169.97:8000/muser/publicRequests
+2023-01-05 15:35:04,238 INFO [root] [utils.py(request_third_api:23)] - {'Version': '10', 'CmdId': 'UserRegister', 'MerCustId': '6000060007313892', 'BgRetUrl': 'https://www.baidu.com/', 'RetUrl': 'http://user-p2p-test.itheima.net/trust/chinapnr/register/return/23010515350400312260', 'UsrId': '', 'UsrName': '', 'IdType': '00', 'IdNo': '340823198807136113', 'UsrMp': '13033547611', 'UsrEmail': '', 'MerPriv': '23010515350400312260', 'ChkValue': '-101', 'CharSet': 'UTF-8'}
+2023-01-05 15:35:04,666 INFO [root] [utils.py(request_third_api:25)] - UserRegister OK
+2023-01-05 15:35:04,666 INFO [root] [Trusttest.py(test01_success_trust:29)] - response：UserRegister OK
+2023-01-05 15:35:04,886 INFO [root] [Trusttest.py(test02_success_recharge_verify_code:35)] - 0.06131836929763235
+2023-01-05 15:35:05,169 INFO [root] [Trusttest.py(test03_success_reacharge_verify_code_int:42)] - 95104
+2023-01-05 15:36:32,077 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:36:32,078 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:36:32,342 INFO [root] [Trusttest.py(test04_fail_recharge_veriify_code_isNull:49)] - 
+2023-01-05 15:36:39,813 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:36:39,813 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:36:40,058 INFO [root] [Trusttest.py(test04_fail_recharge_veriify_code_isNull:49)] - 
+2023-01-05 15:36:44,458 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:36:44,458 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:36:44,689 INFO [root] [Trusttest.py(test04_fail_recharge_veriify_code_isNull:49)] - 
+2023-01-05 15:36:47,218 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:36:47,219 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:36:47,459 INFO [root] [Trusttest.py(test04_fail_recharge_veriify_code_isNull:49)] - 
+2023-01-05 15:36:50,221 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:36:50,221 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:36:50,439 INFO [root] [Trusttest.py(test04_fail_recharge_veriify_code_isNull:49)] - 
+2023-01-05 15:38:35,480 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:38:35,480 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:38:35,708 INFO [root] [Trusttest.py(test05_fail_recharge_verify_code_isStr:56)] - ['h', 'd', 'i', 'b', 'e']
+2023-01-05 15:38:57,355 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:38:57,355 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:38:57,601 INFO [root] [Trusttest.py(test05_fail_recharge_verify_code_isStr:57)] - bhcea
+2023-01-05 15:39:07,469 INFO [root] [__init__.py(<module>:5)] - info
+2023-01-05 15:39:07,470 ERROR [root] [__init__.py(<module>:6)] - error
+2023-01-05 15:39:07,714 INFO [root] [Trusttest.py(test05_fail_recharge_verify_code_isStr:57)] - agcfd
